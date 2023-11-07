@@ -4,18 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyberpunk 2077</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <header>
+    <section class="promo">
         <div class="container">
-            <div class="logo">
-                <img src="icons/promo/Cyberpunk_logo.svg" alt="logo" class="logo_img">
-                <img src="icons/promo/youtube.svg" alt="youtube" class="logo_youtube">
+            <header>
+                    <nav class="header__menu">
+                        <div class="header__logo">
+                                <img src="icons/promo/Cyberpunk_logo.svg" alt="logo">
+                        </div>
+                        <div class="header__social">
+                            <ul>
+                                <li><a href="https://www.youtube.com/watch?v=qIcTM8WXFjk"><img src="icons/promo/youtube.svg" alt="youtube"></img></a></li>
+                                <li><a href="https://vk.com/cyberpunkgame"><img src="icons/promo/vk.svg" alt="VK"></img></a></li>
+                                <li><a href="https://www.facebook.com/gaming/cyberpunk2077/"><img src="icons/promo/facebook.svg" alt="facebook"></img></a></li>
+                                <li><a href="https://twitter.com/CyberpunkGame/status/1697614722080571820"><img src="icons/promo/twitter.svg" alt="twitter"></img></a></li>
+                                <li><a href="https://www.twitch.tv/directory/category/cyberpunk-2077"><img src="icons/promo/twitch.svg" alt="twitch"></img></a></li>
+                                <li><a href="https://www.instagram.com/cyberpunkgame/"><img src="icons/promo/instagram.svg" alt="instagram"></img></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+            </header>
+            <div class="promo__rectangle">
+                <div class="promo__rectangle_text">
+                    Доступно на всех платформах
+                </div>
+                <button class="promo__rectangle_btn">
+                    Узнать больше
+                </button>
             </div>
         </div>
-    </header>
+    </section>
+    <section class="nitecity">
+        <div class="container">
+            <h1 class="nitecity_title">
+                Найт-Сити изменит тебя навсегда!
+            </h1>
+            <div class="nitecity_text">
+                <span class="nitecity_text_color">Cyberpunk 2077</span> — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках устройства, позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.
+            </div>
+            <div class="nitecity_wrapper">
+                <div class="nitecity_wrapper_sideitem">
+                    <div class="nitecity_wrapper_sideitem_item">
+                        <img src="img/nite_city/city1.svg" alt="1">
+                    </div>
+                    <div class="nitecity_wrapper_sideitem_item">
+                        <img src="img/nite_city/city2.svg" alt="2">
+                    </div>
+                </div>
+                <div class="nitecity_wrapper_mainitem">
+                    <img src="img/nite_city/city3.svg" alt="3">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="spray">
+    </section>
+    <section class="playwin">
+        <div class="container">
+                <div class="playwin_promo">
+                    <div class="playwin_logo">
+                        <img src="icons/play&win/Vector.svg" alt="logo">
+                        <span class="playwin_logo_text">Акция</span>
+                    </div>
+                    <h2 class="playwin_title">Играй и выигрывай!</h2>
+                    <div class="playwin_descr">
+                        Играй в <span class="playwin_descr_color">Cyberpunk 2077</span> и получи возможность выиграть консоль <span class="playwin_descr_color">Xbox Series X</span> или <span class="playwin_descr_color">Sony PlayStation 5!</span> Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)
+                    </div>
+                </div>
+                <div class="playwin_wrapper">
+                    <form action="#" class="playwin_wrapper_form">
+                        <input type="text">
+                        <br>
+                        <input type="email">
+                        <br>
+                        <input type="file">
+                    </form>
+                    <img src="img/play&win/xboxandps.svg" alt="xbox и playstation">
+                </div>
+        </div>
+    </section>
 </body>
 </html>
