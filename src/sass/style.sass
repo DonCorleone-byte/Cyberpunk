@@ -128,13 +128,49 @@ ul
 			width: 318px
 			margin-top: 98px
 			input
-				margin-bottom: 35px
+				background: transparent
 				border: none
+				border-bottom: 1px solid #444
+				margin-bottom: 35px
 				font-family: Roboto
 				font-size: 18px
 				font-style: normal
 				weight: 300
 				color: #fff
+		.form-btn
+				background: #F8F200
+				height: 59px
+				width: 192px
+				padding: 15px 50px
+				color: #000
+				font-family: Roboto
+				font-size: 18px
+				font-style: normal
+				font-weight: 700
+				line-height: normal
+				margin-bottom: 15px
+		.input-file
+			border: 1px dashed #777
+			padding: 39px 60px
+			color: #444
+			text-align: center
+			font-size: 18px
+			margin-bottom: 35px
+			&-btn
+				text-decoration: underline
+			input
+				width: 0.1px
+				height: 0.1px
+				opacity: 0
+				overflow: hidden
+				position: absolute
+				z-index: -1
+		.contacts__policy
+			color: gray
+			font-family: Roboto
+			font-size: 14px
+			font-weight: 300
+			line-height: normal
 .about
 	min-height: 676px
 	background: #F8F200
@@ -180,3 +216,88 @@ ul
 		font-style: normal
 		font-weight: 700
 		line-height: normal
+.buy
+	min-height: 717px
+	background: url(../img/bg/buy_bg.png)  no-repeat -231px 0, #000
+	&_title
+		padding-top: 70px
+		padding-left: 665px
+		color: #FFF
+		font-family: Archangelsk
+		font-size: 62px
+		font-style: normal
+		font-weight: 400
+		line-height: normal
+	&_bluetext
+		color: #52BEDC
+		font-family: Roboto
+		font-size: 24px
+		font-style: normal
+		font-weight: 700
+		line-height: normal
+		padding-top: 25px
+		padding-left: 666px
+		margin-bottom: 15px
+	&_icons
+		// display: flex
+		flex-direction: column
+		margin-left: 666px
+		margin-bottom: 45px
+		color: #fff
+		font-family: Roboto
+		font-size: 18px
+		font-weight: 400
+		line-height: normal
+		img
+			margin-right: 10px
+			vertical-align: middle
+			width: 32px
+			height: 32px
+	.platform
+		margin-top: 25px
+		width: 405px
+		height: 133px
+		position: relative
+		left: 666px
+		&__img_first
+			display: flex
+			justify-content: space-between
+			margin-top: 25px
+		&__img_second
+			display: flex
+			justify-content: space-between
+			margin-top: 55px
+.footer
+	min-height: 100px
+	&__line
+		display: flex
+		flex-direction: row
+		padding: 13px 0
+		justify-content: space-between
+	&__logo
+		width: 495px
+		display: flex
+		justify-content: space-between
+		img
+			// max-width: 295px
+			padding-right:32px
+	&__license
+		padding: 40px 0
+		display: flex
+		justify-content: space-between
+		width: 388px
+		a
+			text-decoration: none
+			color: #000
+			font-family: Roboto
+			font-size: 18px
+			font-weight: 400
+	&__blackline
+		background: #000
+		min-height: 40px
+		padding: 13px 0
+		color: #fff
+		text-align: center
+		font-family: Roboto
+		font-size: 12px
+		font-weight: 400

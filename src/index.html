@@ -81,9 +81,17 @@
                     <form action="#" class="playwin_wrapper_form">
                         <input name="name" required placeholder="Как тебя зовут?" type="text">
                         <input name="email" required placeholder="Твой e-mail" type="email">
-                        <input name="screen" placeholder="Прикрепить скриншот" type="file">
-                        <button>Отправить</button>
-                        <input placeholder="Согласен на обработку персональных данных" type="checkbox">
+                        <!-- <input name="screen" type="file"> -->
+                        <label class="input-file">
+                            <input type="file" name="file">
+                            <span class="input-file-btn">Прикрепить скриншот</span>
+                            <br>          
+                            <span class="input-file-text">.png / .jpg / .pdf</span>
+                        </label>
+                        <button class="form-btn">Отправить</button>
+                        <div class="contacts__policy">
+                            <input required type="checkbox">Согласен на обработку персональных данных
+                        </div>
                     </form>
                     <img src="img/play&win/xboxandps.svg" alt="xbox и playstation">
                 </div>
@@ -127,5 +135,58 @@
             </div>
         </div>    
     </section>
+    <section class="buy">
+        <div class="container">
+            <h2 class="buy_title">
+                Купить игру Cyberpunk 2077
+            </h2>
+            <div class="buy_bluetext">
+                В комплект входит:
+            </div>
+            <div class="buy_icons">
+                <img src="../src/icons/footer/disk.svg" alt="disk">Футляр с игровыми дисками
+                <br>
+                <br>
+                <img src="../src/icons/footer/case.svg" alt="case">Футляр с кодом для загрузки игры и дисками (pc)
+                <br>
+                <br>
+                <img src="../src/icons/footer/collections.svg" alt="collections">Справочник с информацией об игровом мире
+                <br>
+                <br>
+            </div>
+            <div class="buy_bluetext">
+                Выберите платформу:
+            </div>
+            <div class="platform">
+                <div class="platform__img_first">
+                    <img src="../src/icons/footer/pc.svg" alt="PC">
+                    <img src="../src/icons/footer/xbox.svg" alt="XBox">    
+                </div>
+                <div class="platform__img_second">
+                    <img src="../src/icons/footer/stadia.svg" alt="stadia">
+                    <img src="../src/icons/footer/ps4.svg" alt="PS4">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer__line">
+                <div class="footer__logo">
+                    <img src="icons/promo/Cyberpunk_logo.svg" alt="logo">
+                    <img src="icons/footer/CD_Projekt_logo.svg" alt="CD_Projekt_logo">
+                </div>
+                <div class="footer__license">
+                    <a href="#">Лицензия</a>
+                    <a href="#">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__blackline">
+            <div class="container">
+                CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
